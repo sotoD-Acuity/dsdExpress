@@ -2,15 +2,17 @@
   "name": "dsdnodejs",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devtailwind":"npx tailwindcss -i ./public/css/input.css -o ./public/css/output.css --watch"
   },
   "keywords": [],
   "author": "Diego A. Soto |Copyright 2024",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "pug": "^3.0.2"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.1"
